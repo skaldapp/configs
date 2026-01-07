@@ -1,4 +1,4 @@
-# @vuebro/configs
+# @skaldapp/configs
 
 A comprehensive collection of shared configuration files for Vue.js projects with TypeScript, ESLint, Prettier, UnoCSS, and Vite. This package provides a complete setup for modern Vue development with Pug support, ensuring consistent code style and best practices across projects.
 
@@ -15,7 +15,7 @@ A comprehensive collection of shared configuration files for Vue.js projects wit
 ## Installation
 
 ```bash
-npm install @vuebro/configs --save-dev
+npm install @skaldapp/configs --save-dev
 ```
 
 ## Usage
@@ -25,7 +25,7 @@ npm install @vuebro/configs --save-dev
 To use the ESLint configuration, add this to your `eslint.config.js` or `eslint.config.ts`:
 
 ```js
-import configs from "@vuebro/configs/eslint";
+import configs from "@skaldapp/configs/eslint";
 
 export default configs;
 ```
@@ -35,7 +35,7 @@ export default configs;
 To use the Prettier configuration, add this to your `prettierrc.config.js` or `.prettierrc`:
 
 ```js
-import config from "@vuebro/configs/prettierrc";
+import config from "@skaldapp/configs/prettierrc";
 
 export default config;
 ```
@@ -44,7 +44,7 @@ Alternatively, you can reference it in your `package.json`:
 
 ```json
 {
-  "prettier": "@vuebro/configs/prettierrc"
+  "prettier": "@skaldapp/configs/prettierrc"
 }
 ```
 
@@ -54,7 +54,7 @@ To use the TypeScript configuration, extend it in your `tsconfig.json`:
 
 ```json
 {
-  "extends": "@vuebro/configs/tsconfig.json"
+  "extends": "@skaldapp/configs/tsconfig.json"
 }
 ```
 
@@ -63,7 +63,7 @@ To use the TypeScript configuration, extend it in your `tsconfig.json`:
 To use the UnoCSS configuration, add this to your `uno.config.js` or `uno.config.ts`:
 
 ```js
-import config from "@vuebro/configs/uno";
+import config from "@skaldapp/configs/uno";
 
 export default config;
 ```
@@ -71,7 +71,7 @@ export default config;
 You can also use the UnoCSS presets with:
 
 ```js
-import presets from "@vuebro/configs/uno/presets";
+import presets from "@skaldapp/configs/uno/presets";
 
 // Example usage with options
 import { defineConfig } from "unocss";
@@ -94,7 +94,7 @@ export default defineConfig({
 To use the Vite configuration, add this to your `vite.config.js` or `vite.config.ts`:
 
 ```js
-import config from "@vuebro/configs/vite";
+import config from "@skaldapp/configs/vite";
 
 export default config;
 ```
