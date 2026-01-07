@@ -1,0 +1,23 @@
+{
+  "$schema": "https://www.schemastore.org/tsconfig",
+  "exclude": ["${configDir}/dist", "${configDir}/node_modules"],
+  "extends": [
+    "@vue/tsconfig/tsconfig",
+    "@vue/tsconfig/tsconfig.dom",
+    "@vue/tsconfig/tsconfig.lib",
+    "@tsconfig/strictest/tsconfig"
+  ],
+  "compilerOptions": {
+    "allowImportingTsExtensions": false,
+    "allowJs": true,
+    "emitDeclarationOnly": false,
+    "incremental": true,
+    "outDir": "${configDir}/dist",
+    "paths": { "@/*": ["${configDir}/src/*"] },
+    "removeComments": true,
+    "tsBuildInfoFile": "${configDir}/node_modules/.tmp/tsconfig.app.tsbuildinfo",
+    "types": ["vite/client", "@vue-macros/reactivity-transform/macros-global"]
+  },
+  "tsc-alias": { "resolveFullPaths": true },
+  "vueCompilerOptions": { "plugins": ["@vue/language-plugin-pug"] }
+}
