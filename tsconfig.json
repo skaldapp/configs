@@ -16,7 +16,7 @@
     "paths": { "@/*": ["${configDir}/src/*"] },
     "removeComments": true,
     "tsBuildInfoFile": "${configDir}/node_modules/.tmp/tsconfig.app.tsbuildinfo",
-    "types": ["vite/client", "@vue-macros/reactivity-transform/macros-global"]
+    "types": ["vite/client"]
   },
   "tsc-alias": { "resolveFullPaths": true },
   "vueCompilerOptions": { "plugins": ["@vue/language-plugin-pug"] }
