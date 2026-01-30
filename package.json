@@ -63,7 +63,7 @@
   },
   "dependencies": {
     "@eslint/js": "^9.39.2",
-    "@eslint/json": "^0.14.0",
+    "@eslint/json": "^1.0.0",
     "@prettier/plugin-pug": "^3.4.2",
     "@tsconfig/strictest": "^2.0.8",
     "@unocss/eslint-config": "^66.6.0",
@@ -90,7 +90,7 @@
     "eslint-plugin-de-morgan": "^2.0.0",
     "eslint-plugin-depend": "^1.4.0",
     "eslint-plugin-import-x": "^4.16.1",
-    "eslint-plugin-jsdoc": "^62.4.1",
+    "eslint-plugin-jsdoc": "^62.5.0",
     "eslint-plugin-package-json": "^0.88.2",
     "eslint-plugin-perfectionist": "^5.4.0",
     "eslint-plugin-prettier": "^5.5.5",
@@ -112,6 +112,6 @@
   },
   "devDependencies": {
     "@eslint/config-helpers": "^0.5.1",
-    "@types/node": "^25.0.10"
+    "@types/node": "^25.1.0"
   }
 }
