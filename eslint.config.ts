@@ -15,6 +15,7 @@ import jsDoc from "eslint-plugin-jsdoc";
 import { configs as packageJsonConfigs } from "eslint-plugin-package-json";
 import { configs as perfectionistConfigs } from "eslint-plugin-perfectionist";
 import prettierConfigsRecommended from "eslint-plugin-prettier/recommended";
+import { configs as sonarjsConfigs } from "eslint-plugin-sonarjs";
 import vue from "eslint-plugin-vue";
 import vuePug from "eslint-plugin-vue-pug";
 
@@ -48,6 +49,7 @@ export default defineConfigWithVueTs(
       "vue/attributes-order": ["warn", { alphabetical: true }],
     },
   },
+  sonarjsConfigs.recommended,
   deMorganConfigs.recommended,
   importXConfigs.recommended,
   importXConfigs.typescript,
