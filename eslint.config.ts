@@ -1,3 +1,5 @@
+import type { ConfigWithExtendsArray } from "@eslint/config-helpers";
+
 import js from "@eslint/js";
 import json from "@eslint/json";
 import unocss from "@unocss/eslint-config/flat";
@@ -65,4 +67,4 @@ export default defineConfigWithVueTs(
   packageJsonConfigs.recommended,
   packageJsonConfigs.stylistic,
   prettierConfigsRecommended,
-);
+) as ConfigWithExtendsArray;
