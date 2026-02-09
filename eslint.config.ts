@@ -1,5 +1,3 @@
-import type { ConfigWithExtendsArray } from "@eslint/config-helpers";
-
 import js from "@eslint/js";
 import json from "@eslint/json";
 import unocss from "@unocss/eslint-config/flat";
@@ -19,6 +17,15 @@ import { configs as sonarjsConfigs } from "eslint-plugin-sonarjs";
 import vue from "eslint-plugin-vue";
 import vuePug from "eslint-plugin-vue-pug";
 
+const alphabetical = true,
+  bundledDependencies = false,
+  devDependencies = ["*.config.ts"],
+  files = ["**/*.{ts,vue}"],
+  optionalDependencies = false,
+  peerDependencies = false,
+  startLines = 1,
+  whitelist = ["electron", "@skaldapp/configs"];
+
 export default defineConfigWithVueTs(
   gitignore(),
   {
@@ -32,21 +39,21 @@ export default defineConfigWithVueTs(
       unocss,
       jsDoc.configs["flat/recommended-typescript"],
     ],
-    files: ["**/*.{ts,vue}"],
+    files,
     rules: {
       "@typescript-eslint/no-use-before-define": ["error", "nofunc"],
       "import-x/no-extraneous-dependencies": [
         "error",
         {
-          bundledDependencies: false,
-          devDependencies: ["*.config.ts"],
-          optionalDependencies: false,
-          peerDependencies: false,
-          whitelist: ["electron", "@skaldapp/configs"],
+          bundledDependencies,
+          devDependencies,
+          optionalDependencies,
+          peerDependencies,
+          whitelist,
         },
       ],
-      "jsdoc/tag-lines": ["warn", "any", { startLines: 1 }],
-      "vue/attributes-order": ["warn", { alphabetical: true }],
+      "jsdoc/tag-lines": ["warn", "any", { startLines }],
+      "vue/attributes-order": ["warn", { alphabetical }],
     },
   },
   sonarjsConfigs.recommended,
@@ -58,4 +65,4 @@ export default defineConfigWithVueTs(
   packageJsonConfigs.recommended,
   packageJsonConfigs.stylistic,
   prettierConfigsRecommended,
-) as ConfigWithExtendsArray;
+);

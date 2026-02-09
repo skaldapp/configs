@@ -1,4 +1,3 @@
-import type { Preset } from "@unocss/core";
 import type { AttributifyOptions } from "@unocss/preset-attributify";
 import type { IconsOptions } from "@unocss/preset-icons/browser";
 import type { TagifyOptions } from "@unocss/preset-tagify";
@@ -12,6 +11,10 @@ import { presetTagify } from "@unocss/preset-tagify";
 import { presetTypography } from "@unocss/preset-typography";
 import { presetWebFonts } from "@unocss/preset-web-fonts";
 import { presetWind4 } from "@unocss/preset-wind4";
+
+const cdn = "https://cdn.jsdelivr.net/npm/",
+  reset = true,
+  preflights = { reset };
 
 export default ({
   attributifyOptions,
@@ -27,12 +30,11 @@ export default ({
   typographyOptions?: TypographyOptions;
   webFontsOptions?: WebFontsOptions;
   wind4Options?: PresetWind4Options;
-} = {}) =>
-  [
-    presetWind4({ preflights: { reset: true }, ...wind4Options }),
-    presetAttributify(attributifyOptions),
-    presetTagify(tagifyOptions),
-    presetIcons({ cdn: "https://cdn.jsdelivr.net/npm/", ...iconsOptions }),
-    presetWebFonts(webFontsOptions),
-    presetTypography(typographyOptions),
-  ] as Preset[];
+} = {}) => [
+  presetWind4({ preflights, ...wind4Options }),
+  presetAttributify(attributifyOptions),
+  presetTagify(tagifyOptions),
+  presetIcons({ cdn, ...iconsOptions }),
+  presetWebFonts(webFontsOptions),
+  presetTypography(typographyOptions),
+];

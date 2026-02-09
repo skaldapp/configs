@@ -5,11 +5,11 @@ import transformerDirectives from "@unocss/transformer-directives";
 import transformerVariantGroup from "@unocss/transformer-variant-group";
 import { defineConfig } from "@unocss/vite";
 
-export default defineConfig({
-  extractors: [extractorPug(), extractorArbitraryVariants()],
-  transformers: [
+const extractors = [extractorPug(), extractorArbitraryVariants()],
+  transformers = [
     transformerVariantGroup(),
     transformerDirectives(),
     transformerCompileClass(),
-  ],
-});
+  ];
+
+export default defineConfig({ extractors, transformers });
