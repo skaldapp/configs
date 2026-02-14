@@ -63,7 +63,7 @@
   },
   "dependencies": {
     "@eslint/js": "^9.39.2",
-    "@eslint/json": "^1.0.0",
+    "@eslint/json": "^1.0.1",
     "@prettier/plugin-pug": "^3.4.2",
     "@tsconfig/strictest": "^2.0.8",
     "@unocss/eslint-config": "^66.6.0",
@@ -94,8 +94,8 @@
     "eslint-plugin-package-json": "^0.88.2",
     "eslint-plugin-perfectionist": "^5.5.0",
     "eslint-plugin-prettier": "^5.5.5",
-    "eslint-plugin-sonarjs": "^3.0.6",
-    "eslint-plugin-vue": "^10.7.0",
+    "eslint-plugin-sonarjs": "^3.0.7",
+    "eslint-plugin-vue": "^10.8.0",
     "eslint-plugin-vue-pug": "^1.0.0-alpha.5",
     "jiti": "^2.6.1",
     "prettier": "^3.8.1",
@@ -107,12 +107,12 @@
     "typescript": "^5.9.3",
     "vite": "^7.3.1",
     "vite-plugin-vue-devtools": "^8.0.6",
-    "vite-tsconfig-paths": "^6.1.0",
+    "vite-tsconfig-paths": "^6.1.1",
     "vue-eslint-parser-template-tokenizer-pug": "^1.0.0",
     "vue-tsc": "^3.2.4"
   },
   "devDependencies": {
     "@eslint/config-helpers": "^0.5.2",
-    "@types/node": "^25.2.2"
+    "@types/node": "^25.2.3"
   }
 }
