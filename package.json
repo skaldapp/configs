@@ -105,7 +105,7 @@
     "prettier-plugin-tailwindcss": "^0.7.2",
     "pug": "^3.0.4",
     "tsc-alias": "^1.8.16",
-    "typescript": "^6.0.2",
+    "typescript": "^5.9.3",
     "vite": "^8.0.5",
     "vite-plugin-vue-devtools": "^8.1.1",
     "vue-eslint-parser-template-tokenizer-pug": "^1.0.0",
