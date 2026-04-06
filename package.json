@@ -106,7 +106,7 @@
     "pug": "^3.0.4",
     "tsc-alias": "^1.8.16",
     "typescript": "^6.0.2",
-    "vite": "^8.0.3",
+    "vite": "^8.0.5",
     "vite-plugin-vue-devtools": "^8.1.1",
     "vue-eslint-parser-template-tokenizer-pug": "^1.0.0",
     "vue-tsc": "^3.2.6"
