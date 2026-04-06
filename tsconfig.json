@@ -14,7 +14,7 @@
     "outDir": "${configDir}/dist",
     "paths": { "@/*": ["${configDir}/src/*"] },
     "removeComments": true,
-    "types": ["vite/client", "node"]
+    "types": ["vite/client"]
   },
   "tsc-alias": { "resolveFullPaths": true },
   "vueCompilerOptions": { "plugins": ["@vue/language-plugin-pug"] }
