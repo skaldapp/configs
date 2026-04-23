@@ -17,7 +17,7 @@ import { configs as perfectionistConfigs } from "eslint-plugin-perfectionist";
 import prettierConfigsRecommended from "eslint-plugin-prettier/recommended";
 import { configs as sonarjsConfigs } from "eslint-plugin-sonarjs";
 import vue from "eslint-plugin-vue";
-import vuePug from "eslint-plugin-vue-pug";
+// import vuePug from "eslint-plugin-vue-pug";
 
 const alphabetical = true,
   bundledDependencies = false,
@@ -32,7 +32,7 @@ export default defineConfigWithVueTs(
   gitignore(),
   {
     extends: [
-      vuePug.configs["flat/recommended"],
+      // vuePug.configs["flat/recommended"],
       js.configs.recommended,
       vue.configs["flat/recommended"],
       vueTsConfigs.strictTypeChecked,
