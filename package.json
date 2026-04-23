@@ -63,9 +63,9 @@
     "lint": "eslint ."
   },
   "dependencies": {
-    "@eslint/config-array": "0.23.4",
     "@eslint/js": "^10.0.1",
     "@eslint/json": "^1.2.0",
+    "@humanfs/core": "0.19.1",
     "@prettier/plugin-pug": "^3.4.2",
     "@tsconfig/strictest": "^2.0.8",
     "@unocss/eslint-config": "^66.6.8",
