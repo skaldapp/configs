@@ -28,7 +28,7 @@
     "url": "git+https://github.com/skaldapp/configs.git"
   },
   "license": "AGPL-3.0-or-later",
-  "author": "Jerry Bruwes <jbruwes@gmail.com> (https://jbruwes.github.io)",
+  "author": "Jerry Bruwes <jbruwes@gmail.com>",
   "sideEffects": false,
   "type": "module",
   "exports": {
