@@ -80,11 +80,11 @@
     "@unocss/transformer-directives": "^66.6.8",
     "@unocss/transformer-variant-group": "^66.6.8",
     "@unocss/vite": "^66.6.8",
-    "@vitejs/plugin-vue": "^6.0.6",
+    "@vitejs/plugin-vue": "^6.0.7",
     "@vue/eslint-config-typescript": "^14.7.0",
-    "@vue/language-plugin-pug": "^3.2.8",
+    "@vue/language-plugin-pug": "^3.2.9",
     "@vue/tsconfig": "^0.9.1",
-    "eslint": "^10.3.0",
+    "eslint": "^10.4.0",
     "eslint-config-flat-gitignore": "^2.3.0",
     "eslint-config-prettier": "^10.1.8",
     "eslint-import-resolver-typescript": "^4.4.4",
@@ -106,13 +106,13 @@
     "pug": "^3.0.4",
     "tsc-alias": "^1.8.17",
     "typescript": "^6.0.3",
-    "vite": "^8.0.12",
+    "vite": "^8.0.13",
     "vite-plugin-vue-devtools": "^8.1.2",
     "vue-eslint-parser-template-tokenizer-pug": "^1.0.0",
-    "vue-tsc": "^3.2.8"
+    "vue-tsc": "^3.2.9"
   },
   "devDependencies": {
     "@eslint/config-helpers": "^0.6.0",
-    "@types/node": "^25.7.0"
+    "@types/node": "^25.8.0"
   }
 }
