@@ -23,6 +23,9 @@ const alphabetical = true,
   bundledDependencies = false,
   devDependencies = ["*.config.ts"],
   files = ["**/*.{ts,vue}"],
+  tsconfigRootDir = import.meta.dirname,
+  parserOptions = { tsconfigRootDir },
+  languageOptions = { parserOptions },
   optionalDependencies = false,
   peerDependencies = false,
   startLines = 1,
@@ -43,6 +46,7 @@ export default defineConfigWithVueTs(
       sonarjsConfigs.recommended,
     ],
     files,
+    languageOptions,
     rules: {
       "@typescript-eslint/no-use-before-define": ["error", "nofunc"],
       "import-x/no-extraneous-dependencies": [
