@@ -66,7 +66,7 @@ export default defineConfigWithVueTs(
   {
     extends: [json.configs.recommended],
     files: ["**/*.json"],
-    ignores: ["package-lock.json"],
+    ignores: ["**/package-lock.json"],
     language: "json/json",
   },
   deMorganConfigs.recommended,
