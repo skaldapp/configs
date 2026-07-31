@@ -82,7 +82,7 @@
     "@unocss/vite": "^66.7.5",
     "@vitejs/plugin-vue": "^6.0.8",
     "@vue/eslint-config-typescript": "^14.9.0",
-    "@vue/language-plugin-pug": "^3.3.8",
+    "@vue/language-plugin-pug": "^3.3.9",
     "@vue/tsconfig": "^0.9.1",
     "eslint": "^10.8.0",
     "eslint-config-flat-gitignore": "^2.3.0",
@@ -109,7 +109,7 @@
     "vite": "^8.2.0",
     "vite-plugin-vue-devtools": "^8.2.1",
     "vue-eslint-parser-template-tokenizer-pug": "^1.0.0",
-    "vue-tsc": "^3.3.8"
+    "vue-tsc": "^3.3.9"
   },
   "devDependencies": {
     "@eslint/config-helpers": "^0.7.0",
