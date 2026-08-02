@@ -1,7 +1,7 @@
 {
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.codeActionsOnSave": ["source.fixAll.eslint"],
-  "eslint.validate": ["typescript", "vue", "json"],
+  "eslint.validate": ["typescript", "vue", "json", "jsonc", "json5"],
   "js/ts.tsdk.path": "node_modules/typescript/lib",
   "cSpell.words": [
     "attributify",
