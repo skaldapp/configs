@@ -11,7 +11,7 @@ import gitignore from "eslint-config-flat-gitignore";
 import { configs as deMorganConfigs } from "eslint-plugin-de-morgan";
 import { configs as dependConfigs } from "eslint-plugin-depend";
 import { flatConfigs as importXConfigs } from "eslint-plugin-import-x";
-import jsDoc from "eslint-plugin-jsdoc";
+import { configs as packageJsDoc } from "eslint-plugin-jsdoc";
 import { configs as packageJsonConfigs } from "eslint-plugin-package-json";
 import { configs as perfectionistConfigs } from "eslint-plugin-perfectionist";
 import prettierConfigsRecommended from "eslint-plugin-prettier/recommended";
@@ -42,7 +42,7 @@ export default defineConfigWithVueTs(
       vueTsConfigs.stylisticTypeChecked,
       perfectionistConfigs["recommended-natural"],
       unocss,
-      jsDoc.configs["flat/recommended-typescript"],
+      packageJsDoc["flat/recommended-typescript"],
       sonarjsConfigs.recommended,
     ],
     files,
