@@ -82,7 +82,7 @@
     "@unocss/vite": "^66.10.5",
     "@vitejs/plugin-vue": "^6.0.9",
     "@vue/eslint-config-typescript": "^14.9.0",
-    "@vue/language-plugin-pug": "^3.3.11",
+    "@vue/language-plugin-pug": "^3.3.12",
     "@vue/tsconfig": "^0.9.1",
     "eslint": "^10.11.0",
     "eslint-config-flat-gitignore": "^2.4.0",
@@ -104,15 +104,15 @@
     "prettier-plugin-packagejson": "^3.0.2",
     "prettier-plugin-tailwindcss": "^0.8.1",
     "pug": "^3.0.4",
-    "tsc-alias": "^1.9.6",
+    "tsc-alias": "^1.9.7",
     "typescript": "^6.0.3",
-    "vite": "^8.3.1",
+    "vite": "^8.3.2",
     "vite-plugin-vue-devtools": "^8.2.1",
     "vue-eslint-parser-template-tokenizer-pug": "^1.0.0",
-    "vue-tsc": "^3.3.11"
+    "vue-tsc": "^3.3.12"
   },
   "devDependencies": {
     "@eslint/config-helpers": "^0.7.0",
-    "@types/node": "^26.6.3"
+    "@types/node": "^26.6.4"
   }
 }
